@@ -1,0 +1,48 @@
+#layer{
+    width: 40px;
+    height: 30px;
+//    border: 1px solid red;
+    margin: auto;
+    .line1,.line2,.line3{
+        width: 70%;
+        height: 7%;
+        display: block;
+        margin: 6px auto;
+        
+    }
+    .line1{
+        background-color: blue;
+    }
+    .line2{
+        background-color:green; 
+    }
+    .line3{
+         background-color:purple;
+    }
+    @media(max-width: 768px) {
+         width: 40px;
+        height: 30px;
+//        border: 1px solid pink;
+        margin: auto;
+        .line1,.line2,.line3{
+            width: 70%;
+            height: 7%;
+            display: block;
+            margin: 6px auto;
+        
+            }
+    }
+     @media(max-width: 440px) {
+        width:40px;
+        height:30px;
+//        border: 1px solid black;
+        margin: auto;
+        .line1,.line2,.line3{
+            width: 70%;
+            height: 7%;
+            display: block;
+            margin: 6.5px auto;
+        
+    }
+    }
+}
